@@ -1,0 +1,7 @@
+-Chat i votaciones.
+-Animaciones servidor.
+-Personalizacion jugador.
+-Extras de conexion entre clientes i servidor (gestion de conexiones)
+-Jugabilidad con los estados de los jugadores:
+	Si un jugador esta vivo no vera a los muertos, los muertos lo ven todo.
+	El sus tiene una global light y los clientes tienen una spot light.

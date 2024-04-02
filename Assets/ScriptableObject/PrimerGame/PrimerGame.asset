@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00bd652f9e552d9479398cd2d157c52e, type: 3}
+  m_Name: PrimerGame
+  m_EditorClassIdentifier: 
+  primerGeim: 0
+  ListaColorines:
+    m_Colores:
+    - m_ColorPersonaje: {r: 1, g: 1, b: 1, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 0, g: 0, b: 0, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 1, g: 0, b: 0, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 0, g: 1, b: 0, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 0, g: 0, b: 1, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 1, g: 0, b: 1, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 0.6117647, g: 0, b: 1, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 1, g: 0.38102227, b: 0, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 1, g: 0.8248069, b: 0, a: 1}
+      m_ColorDisponible: 0
+    - m_ColorPersonaje: {r: 0, g: 1, b: 1, a: 1}
+      m_ColorDisponible: 0

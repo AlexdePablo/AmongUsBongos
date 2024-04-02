@@ -1,0 +1,20 @@
+El client pot gestionar el seu color, ja que és una NetworkVariable que escriu el mateix propietari; tot i això, el servidor té un llistat dels colors i dels colors disponibles.
+Aquest llistat el controla el servidor, quan un client vol un color el demana al servidor i el servidor mira si està disponible o no i li diu al client, si està lliure, 
+i aquest es canvia el color i el servidor canvia la llista de colors disponibles.
+
+El servidor gestiona les col·lisions dels jugadors entre el sus i els tripulants, entre els tripulants i les missions i entre els que estan vius i els assassinats per a 
+reportar el cadàver.
+El client gestiona les seves missions (quines estan fetes i quines no), però el servidor té un llistat del nombre de missions que cada client ha fet i gestiona el total 
+de missions, quan es completen les missions el servidor acaba la partida.
+
+En la pantalla de votacions hi ha un chat, aquest chat funciona amb missatges i el seu color que un client envia al servidor amb un rpc i el servidor ho envia a tots els clients,
+aquests creen un prefab amb aquest missatge i el color de la persona que l'ha enviat. Els hi arriba amb ClientRcps.
+
+Per a sincronitzar el temps en les pantalles de chat el servidor gestiona una NetworkVariable de int i amb una corrutina va fet un temporitzador sincronitzat entre tots
+els clients.
+
+Les votacions tenen un script amb una networkVariable del nombre de vots que rep un botó, aquesta network variable només l'edita el servidor.
+El jugador quan vota a algú fa una petició al servidor i augmenta el nombre de la persona que s'ha votat.
+
+Quan un jugador és funat o assassinat tradicionalment aquest mor amb el servidor, aquest canvia la NetworkVariable que té el jugador d'estar viu.
+
